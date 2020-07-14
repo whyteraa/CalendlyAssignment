@@ -43,5 +43,5 @@ Continue = driver.find_element(xpath: '//*[@id="main-region"]/div/div[1]/div/div
 Continue.click
 sleep 5
 
-#Verify the signup process is complet
+#Verify the signup process is complete
 driver.find_element(css: '#main-region > div > div.js-step-region > div > div > div > div > div > div > div > p > a')
